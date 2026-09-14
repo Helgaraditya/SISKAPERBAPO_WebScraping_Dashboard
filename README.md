@@ -52,12 +52,12 @@ Provide structured and up-to-date market price information that can support the 
 ---
 ## 📊 Data Source
 
-![Data Source](images/datasource/web-siskaperbapo.jpg)
-![Data Source](images/datasource/web-siskaperbapo2.jpg)
+![Data Source](images/datasource/web-siskaperbapo.png)
+![Data Source](images/datasource/web-siskaperbapo2.png)
 
 The primary data source used in this project is:
 
-**SISKAPERBAPO — Sistem Informasi Ketersediaan dan Perkembangan Harga Bahan Pokok di Jawa Timur**
+**SISKAPERBAPO — Sistem Informasi Ketersediaan dan Perkembangan Harga Bahan Pokok di Jawa Timur** (https://siskaperbapo.jatimprov.go.id/)
 
 The data contains information related to the prices of essential commodities observed in traditional markets.
 
@@ -75,3 +75,6 @@ The exact fields depend on the data retrieved from the SISKAPERBAPO source.
 
 ---
 
+# 🔄 Project Workflow
+
+The project follows an end-to-end data workflow:
