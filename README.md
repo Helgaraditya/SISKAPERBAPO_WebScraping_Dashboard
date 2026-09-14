@@ -52,6 +52,9 @@ Provide structured and up-to-date market price information that can support the 
 ---
 ## 📊 Data Source
 
+![Data Source](images/datasource/web-siskaperbapo.jpg)
+![Data Source](images/datasource/web-siskaperbapo2.jpg)
+
 The primary data source used in this project is:
 
 **SISKAPERBAPO — Sistem Informasi Ketersediaan dan Perkembangan Harga Bahan Pokok di Jawa Timur**
