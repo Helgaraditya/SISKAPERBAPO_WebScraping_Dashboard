@@ -78,3 +78,17 @@ The exact fields depend on the data retrieved from the SISKAPERBAPO source.
 # 🔄 Project Workflow
 
 The project follows an end-to-end data workflow:
+
+![Data Source](images/workflow/workflow)
+
+
+### Workflow Stages
+
+| Stage | Process | Main Output |
+|---|---|---|
+| **1. Data Collection** | Python + Selenium + Tkinter web scraping | Raw market price data |
+| **2. Data Cleaning & Processing** | Data cleaning, transformation, and validation | Processed dataset |
+| **3. Database Storage** | Store processed data in a structured database | Structured database |
+| **4. Database Integration** | Integrate database with the visualization layer | Integrated data source |
+| **5. Dashboard Development** | Power BI visualization and interactive filters | Interactive dashboard |
+| **6. Evaluation & Improvement** | Functional, data, and visualization evaluation | Improved application & dashboard |
