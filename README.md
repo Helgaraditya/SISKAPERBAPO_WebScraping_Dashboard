@@ -143,6 +143,8 @@ Users can specify the required observation period before starting the scraping p
 
 ## 📊 Scraping Result
 
+![Data Source](images/webcrapping/table-scraping.png)
+
 After the scraping process is completed, the application displays the collected market price data in a structured tabular format.
 
 The scraping result contains several attributes that describe the market price observations:
@@ -158,3 +160,72 @@ The scraping result contains several attributes that describe the market price o
 | **Perubahan** | Price change between the previous and current price |
 
 The table allows users to review and verify the collected records directly within the application before exporting the dataset for further data cleaning, processing, database storage, and analysis.
+
+---
+
+## 📤 Data Export
+
+![Data Source](images/webcrapping/export-data-interface.png)
+
+After data collection, the application provides an Ekspor Data interface for exporting the collected dataset.
+
+The export interface allows users to select:
+
+- Start date
+- End date
+- File format
+
+The current implementation provides .xlsx as an export format.
+
+## 📦 Ekspor Semua Data
+
+- Ekspor Semua Data button allows users to export the complete dataset available in the application.
+- This feature is useful when the entire collected dataset is required for subsequent data processing, analysis, or archival purposes.
+
+## 📅 Ekspor Berdasarkan Tanggal
+
+- Ekspor Berdasarkan Tanggal button allows users to export data according to the selected date range.
+- This feature provides more granular control over the exported dataset and allows users to obtain only the records required for a specific period.
+
+## 🧩 Web Scraping Application Features
+
+The web scraping application provides several features to support automated market price data collection and export:
+
+| Feature | Description |
+|---|---|
+| **Date Range Selection** | Select the start and end dates for data collection |
+| **Data Extraction** | Extract market price information based on the selected date range |
+| **Web Scraping** | Automate the collection of market price data from SISKAPERBAPO |
+| **Data Preview** | Display the collected records in a structured tabular format |
+| **Price Information** | Display previous price, current price, and price changes |
+| **Export All Data** | Export the complete collected dataset |
+| **Export by Date** | Export data based on a selected date range |
+| **Excel Export** | Export the collected data in `.xlsx` format |
+
+---
+
+## 🧹 2. Data Cleaning & Processing
+
+The data collected through the web scraping process needs to be prepared before being stored and used for analysis.
+
+The data processing stage is performed to ensure that the collected information is structured and suitable for subsequent database integration and visualization.
+
+The processing workflow includes:
+
+- Data validation
+- Data cleaning
+- Data transformation
+- Data type adjustment
+- Data formatting
+- Handling inconsistencies
+- Preparing data for database storage
+
+---
+
+## 🗄️ 3. Database Storage & Integration
+
+
+
+After the data has been cleaned and processed, the resulting dataset is stored in a structured database.
+
+The database acts as a centralized data source for the dashboard.
