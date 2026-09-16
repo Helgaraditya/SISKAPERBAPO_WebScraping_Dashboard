@@ -79,7 +79,7 @@ The exact fields depend on the data retrieved from the SISKAPERBAPO source.
 
 The project follows an end-to-end data workflow:
 
-![Data Source](images/workflow/workflow)
+![Data Source](images/workflow/workflow-project.png)
 
 
 ### Workflow Stages
@@ -92,3 +92,69 @@ The project follows an end-to-end data workflow:
 | **4. Database Integration** | Integrate database with the visualization layer | Integrated data source |
 | **5. Dashboard Development** | Power BI visualization and interactive filters | Interactive dashboard |
 | **6. Evaluation & Improvement** | Functional, data, and visualization evaluation | Improved application & dashboard |
+
+---
+
+# 🕷️ 1. Web Scraping Application
+
+The first component of this project is a desktop-based **Web Scraping Application** developed using **Python, Selenium, and Tkinter** to automate the collection of market price data from **SISKAPERBAPO**.
+
+The application was designed to simplify the data collection process and reduce repetitive manual data retrieval. It provides an interface that allows users to select the required date range, retrieve market price data, preview the scraping results, and export the collected dataset.
+
+The application provides the following functionalities:
+
+- 📅 Select the data collection period
+- 🔍 Extract market price information
+- 🕷️ Start the web scraping process
+- 📊 Preview collected data
+- 📤 Export the collected dataset
+
+The application reduces the need for repetitive manual data retrieval and provides a more structured approach to collecting market price information.
+
+---
+
+## 🖥️ Main Web Scraper Interface
+
+![Data Source](images/webcrapping/web-scraper-interface.png)
+
+The main interface was developed using **Tkinter** to provide a graphical user interface for collecting market price data from SISKAPERBAPO.
+
+The interface consists of several components that support the data collection workflow, including date selection, data extraction, web scraping, and data preview.
+
+### 📅 Date Range Selection
+
+The application provides two date selectors:
+
+- **Tanggal Awal** — Start date of the data collection period
+- **Tanggal Akhir** — End date of the data collection period
+
+Users can specify the required observation period before starting the scraping process. This allows the application to retrieve data for a specific period rather than processing the entire available dataset.
+
+## 📥 Ekstrak Data
+
+- Ekstrak Data button is used to initiate the data extraction process based on the selected date parameters.
+- The extracted information is prepared for further processing within the application.
+
+## ▶️ Mulai Scraping
+
+- Mulai Scraping button starts the web scraping process.
+- The application retrieves the required market price information from the SISKAPERBAPO source and displays the collected records in the data table.
+
+
+## 📊 Scraping Result
+
+After the scraping process is completed, the application displays the collected market price data in a structured tabular format.
+
+The scraping result contains several attributes that describe the market price observations:
+
+| Column | Description |
+|---|---|
+| **Tanggal** | Date of the market price observation |
+| **Nama Bahan Pokok** | Name of the essential commodity |
+| **Kategori** | Commodity category |
+| **Satuan** | Unit of measurement |
+| **Harga Kemarin** | Previous market price |
+| **Harga Sekarang** | Current market price |
+| **Perubahan** | Price change between the previous and current price |
+
+The table allows users to review and verify the collected records directly within the application before exporting the dataset for further data cleaning, processing, database storage, and analysis.
