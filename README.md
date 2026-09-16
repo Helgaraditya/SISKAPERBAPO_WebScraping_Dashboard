@@ -224,7 +224,7 @@ The processing workflow includes:
 
 ## 🗄️ 3. Database Storage & Integration
 
-
+![Data Source](images/datasource/db_storage.png)
 
 After the data has been cleaned and processed, the resulting dataset is stored in a structured database.
 
