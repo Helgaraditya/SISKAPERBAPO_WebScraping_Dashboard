@@ -229,3 +229,55 @@ The processing workflow includes:
 After the data has been cleaned and processed, the resulting dataset is stored in a structured database.
 
 The database acts as a centralized data source for the dashboard.
+
+---
+
+## 📊 4. Interactive Power BI Dashboard
+
+The second major component of the project is an interactive dashboard developed using Microsoft Power BI.
+
+The dashboard transforms processed SISKAPERBAPO data into visual information that can be used to monitor and analyze traditional market price conditions.
+
+The dashboard focuses on several analytical aspects, including:
+
+- Average commodity price trends
+- Price comparisons between periods
+- Highest and lowest price changes
+- Commodity-level analysis
+-  Interactive filtering
+
+
+## 🖥️ Dashboard Overview
+
+![Data Source](images/dashboard/siskaperbapo-dashboard.png)
+
+The dashboard provides a centralized interface for monitoring commodity prices.
+
+The main dashboard consists of:
+
+- Commodity filter
+- Year filter
+- Month filter
+- Average commodity price trend
+- Highest and lowest price change visualization
+- Commodity price comparison table
+
+These components work together to provide an interactive environment for exploring market price information.
+
+## 🛒 Bahan Pokok
+
+
+
+Bahan Pokok filter allows users to select one or multiple essential commodities for analysis.
+
+Multiple commodities can be selected to compare their price movements and price levels.
+
+Examples of commodities displayed in the dashboard include:
+
+- Cabe Rawit Merah
+- Cabe Merah Keriting
+- Bawang Merah
+-  Daging Ayam Ras
+- Telur Ayam Ras
+- Telur Ayam Kampung
+- etc.
