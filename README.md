@@ -264,7 +264,10 @@ The main dashboard consists of:
 
 These components work together to provide an interactive environment for exploring market price information.
 
-## 🛒 Bahan Pokok
+## 🎛️ Interactive Filters
+The left side of the dashboard contains filters that allow users to dynamically control the data displayed in the visualization
+
+## 🛒 1. Bahan Pokok
 
 
 
@@ -281,3 +284,21 @@ Examples of commodities displayed in the dashboard include:
 - Telur Ayam Ras
 - Telur Ayam Kampung
 - etc.
+
+## 📅 2. Tahun
+The Tahun filter allows users to select the year of analysis.
+
+For example, the dashboard shown in Figure 3 is configured for:
+
+2026
+
+The filter allows users to analyze market price information according to the selected year
+
+##📆 3. Bulan
+The Bulan filter allows users to select the month of analysis.
+
+For example, the dashboard shown in Figure 3 is configured for:
+
+February
+
+The combination of commodity, year, and month filters enables users to perform more focused analysis.
